@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.7.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ICommunication\PF.ICommunication.csproj" />
+    <ProjectReference Include="..\PF.TCPClientCore\PF.TCPClientCore.csproj" />
+    <ProjectReference Include="..\PF.TCPServerCore\PF.TCPServerCore.csproj" />
+    <ProjectReference Include="..\PFCommonParame\PFCommonParame.csproj" />
+    <ProjectReference Include="..\PFLog\PFLog.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,605 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCore\\SecsGem.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj",
+        "projectName": "PF.ICommunication",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\PF.TCPClientCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\PF.TCPClientCore.csproj",
+        "projectName": "PF.TCPClientCore",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\PF.TCPClientCore.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\PF.TCPServerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\PF.TCPServerCore.csproj",
+        "projectName": "PF.TCPServerCore",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\PF.TCPServerCore.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj",
+        "projectName": "PFCommonParame",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\PFLog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\PFLog.csproj",
+        "projectName": "PFLog",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\PFLog.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\SecsGem.DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\SecsGem.DataBase.csproj",
+        "projectName": "SecsGem.DataBase",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\SecsGem.DataBase.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj",
+        "projectName": "SecsGem.Common",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\ICommunication\\PF.ICommunication.csproj"
+              },
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\PF.TCPClientCore.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPClientCore\\PF.TCPClientCore.csproj"
+              },
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\PF.TCPServerCore.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PF.TCPServerCore\\PF.TCPServerCore.csproj"
+              },
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFCommonParame\\PFCommonParame.csproj"
+              },
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\PFLog.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\PFLog\\PFLog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.7.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCore\\SecsGem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCore\\SecsGem.Core.csproj",
+        "projectName": "SecsGem.Core",
+        "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCore\\SecsGem.Core.csproj",
+        "packagesPath": "C:\\Users\\12434\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\12434\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\12434\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\SecsGem.DataBase.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGem.DataBase\\SecsGem.DataBase.csproj"
+              },
+              "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj": {
+                "projectPath": "C:\\Users\\12434\\source\\repos\\TF_Intelligent-Honeycomb-Cabinet\\SecsGemCommon\\SecsGem.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
